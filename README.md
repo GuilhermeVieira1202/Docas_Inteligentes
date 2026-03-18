@@ -5,7 +5,7 @@ Instituição: Faculdade Engenheiro Salvador Arena (FESA)
 Curso: Engenharia de Controle e Automação
 Grupo: GRUPO C
 Integrantes:
-*[Guilherme Henrique Alves Vieira] - RA: [062220021]
+[Guilherme Henrique Alves Vieira] - RA: 062220021
 *Gustavo de Freitas Lima - RA: 062220015
 *Gabriel Santos de Oliveira - RA: 062220028
 *Auro Manoel de Oliveira - RA: 062220018
