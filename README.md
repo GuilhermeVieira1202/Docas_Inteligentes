@@ -43,31 +43,33 @@ Nesta seção, descrevemos o cenário de atuação e a modelagem do agente intel
 Definição das fontes de dados e da inteligência por trás da solução.
 
 * **Origem dos Dados:** Dados de telemetria via simulação (ROS/Gazebo) e datasets de volumetria de carga (*3D Bin Packing*).
-* **Lógica de IA:** Algoritmos de Otimização Combinatória (Heurística de Empacotamento 3D) e Busca **A*** para navegação interna.
-* **Justificativa:** A técnica de Tetris 3D é ideal para maximizar a densidade de carga em tempo real, superando a capacidade humana de organizar volumes heterogêneos sob pressão.
+* **Lógica de IA (Opção B - Sistema Especialista):** Implementação de um motor de regras rígidas (*If-Then*) para controle de segurança e posicionamento.
+    * **Árvore de Decisão:** Prioriza Parada de Emergência (Detecção de Obstáculo) > Correção de Trajetória (Alinhamento) > Início de Carga (Proximidade).
+* **Integração com IA Generativa:** Uso da **API do Gemini** para realizar a **Análise Interpretativa**, convertendo as decisões técnicas do sistema especialista em explicações em linguagem natural e alertas estratégicos para o operador humano.
 
 ---
 
 ### 6. Plano de Tratamento de Dados (ETL)
 O fluxo de processamento dos dados segue estas etapas:
 1. **Extração:** Coleta de nuvens de pontos (*Point Clouds*) do LiDAR e dados de torque via protocolo industrial.
-2. **Transformação:** Filtragem de ruído sensorial, normalização de coordenadas cartesianas e cálculo de centro de massa.
-3. **Carga:** Envio das coordenadas de destino $(x, y, z)$ para os controladores de movimento do agente.
+2. **Transformação:** Filtragem de ruído sensorial, normalização de coordenadas cartesianas e cálculo de centro de massa para o empilhamento dinâmico.
+3. **Carga:** Envio das coordenadas de destino $(x, y, z)$ e instruções de segurança processadas pela IA para os controladores e interface do operador.
 
 ---
 
 ### 7. Estrutura do Repositório
 Organização simplificada para o Milestone 1:
 * `/data`: Arquivos de dados originais (raw) e tratados (processed).
-* `/notebooks`: Experimentos iniciais e análise exploratória.
+* `/notebooks`: Experimentos iniciais e implementação do Motor de Decisão com Gemini API.
 * `/scripts`: Códigos Python (.py) contendo a lógica do agente e do ETL.
-* `requirements.txt`: Lista de bibliotecas para rodar o projeto.
-* `README.md`: Documentação atual do projeto.
+* `requirements.txt`: Lista de bibliotecas necessárias (ex: `google-generativeai`).
+* `README.md`: Documentação técnica do projeto.
 
 ---
 
 ### 8. Instruções para Execução
-Para reproduzir o ambiente e testar o diagnóstico, instale as dependências necessárias através do terminal:
+Para reproduzir o ambiente e testar o diagnóstico:
 
+1. Instale as dependências:
 ```bash
 pip install -r requirements.txt
