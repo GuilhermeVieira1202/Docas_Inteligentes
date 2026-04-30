@@ -102,6 +102,7 @@ O modelo demonstra aprendizado através da convergência da aptidão ao longo da
 
 * **Métrica de Sucesso:** Gráfico de evolução da Aptidão (Fitness) apresentando curva ascendente.
 * **Gráfico de Desempenho:**
+* 
 ![Gráfico de Fitness](grafico_aptidao.png)
 
 ---
