@@ -93,3 +93,16 @@ Para o desenvolvimento do núcleo de inteligência deste projeto, foi selecionad
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/GuilhermeVieira1202/Atv_1.PROJETO-GitHub.git](https://github.com/GuilhermeVieira1202/Atv_1.PROJETO-GitHub.git)
+
+---
+
+## 🤖 9. Apêndice de IA
+
+Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no desenvolvimento:
+
+* **Ferramentas:** Gemini 1.5 Flash (via API) e Gemini Advanced (via interface web).
+* **Aplicação:** Apoio na transição da modelagem lógica para a modelagem matemática (desenvolvimento da função de *Fitness*), estruturação de blocos com *Clean Code*, geração de cenários simulados para os sensores e formatação do repositório no GitHub.
+* **Validação:** Todos os limites matemáticos evoluídos pelo algoritmo e as métricas de segurança geradas pelas respostas do Gemini foram analisados criticamente pelo grupo para garantir coerência com as normas de automação e segurança industrial.
+
+---
+© 2026 - Projeto de Inteligência Artificial - Faculdade Engenheiro Salvador Arena
