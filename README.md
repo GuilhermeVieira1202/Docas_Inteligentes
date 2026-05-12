@@ -93,7 +93,15 @@ Para o desenvolvimento do núcleo de inteligência deste projeto, foi selecionad
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/GuilhermeVieira1202/Atv_1.PROJETO-GitHub.git](https://github.com/GuilhermeVieira1202/Atv_1.PROJETO-GitHub.git)
+   
+2.Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
 
+3. Abra o arquivo na pasta `/notebooks` via Google Colab.
+4. **Importante:** Insira sua `GOOGLE_API_KEY` na célula de configuração da API do Gemini para habilitar a camada interpretativa.
+5. Execute todas as células sequencialmente. O sistema conta com *Try/Catch* na camada de IA para garantir que o AGV opere em contingência caso haja falha de conexão.
+   
 ---
 
 ## 🤖 9. Apêndice de IA
