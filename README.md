@@ -100,7 +100,7 @@ Para o desenvolvimento do núcleo de inteligência deste projeto, foi selecionad
 
 Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no desenvolvimento:
 
-* **Ferramentas:** Gemini 1.5 Flash (via API) e Gemini Advanced (via interface web).
+* **Ferramentas:** Gemini 3.0 Flash (via API) e Gemini Advanced (via interface web).
 * **Aplicação:** Apoio na transição da modelagem lógica para a modelagem matemática (desenvolvimento da função de *Fitness*), estruturação de blocos com *Clean Code*, geração de cenários simulados para os sensores e formatação do repositório no GitHub.
 * **Validação:** Todos os limites matemáticos evoluídos pelo algoritmo e as métricas de segurança geradas pelas respostas do Gemini foram analisados criticamente pelo grupo para garantir coerência com as normas de automação e segurança industrial.
 
