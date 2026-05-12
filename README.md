@@ -82,7 +82,6 @@ Para o desenvolvimento do núcleo de inteligência deste projeto, foi selecionad
 
 ### 7. Estrutura do Repositório
 * `/assets/images`: Prints de gráficos (Aptidão) e logs de execução do Gemini.
-* `/data`: (Opcional) Logs de telemetria simulada dos sensores.
 * `/notebooks`: Notebook `.ipynb` principal contendo o pipeline unificado, *Try/Catch* de exceções e IA.
 * `requirements.txt`: Lista de dependências (`google-generativeai`, `matplotlib`, `numpy`).
 * `README.md`: Esta documentação técnica.
