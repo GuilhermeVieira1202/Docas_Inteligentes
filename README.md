@@ -94,7 +94,7 @@ Para o desenvolvimento do núcleo de inteligência deste projeto, foi selecionad
    ```bash
    git clone [https://github.com/GuilhermeVieira1202/Atv_1.PROJETO-GitHub.git](https://github.com/GuilhermeVieira1202/Atv_1.PROJETO-GitHub.git)
    
-2.Instale as dependências:
+2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
 
