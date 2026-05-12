@@ -8,7 +8,7 @@
 **[Assista ao Pitch e Demonstração da Solução (2-3 min)](#)** *(Insira o link do YouTube/Drive do grupo aqui)*
 
 ### 🚀 Link do Protótipo
-**[[PROTÓTIPO NO GOOGLE COLAB]](#)** *(Insira o link do seu notebook compartilhado aqui)*
+**[[PROTÓTIPO NO GOOGLE COLAB]](#)** *[(Insira o link do seu notebook compartilhado aqui)](https://colab.research.google.com/drive/1B8ZYhVq-1FwjWNzEokLpJ-BJm53Tuh68?usp=sharing)*
 
 ---
 
